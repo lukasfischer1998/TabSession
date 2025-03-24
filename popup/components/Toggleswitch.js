@@ -6,7 +6,7 @@ export function setupToggleSwitch() {
 
 	if (!toggle || !body || !knob || !icon) {
 		console.error(
-			"Fehler: DOM-Elemente für den Toggle-Switch nicht gefunden."
+			"Error: DOM elements for toggle switch not found."
 		);
 		return;
 	}
@@ -22,7 +22,7 @@ export function setupToggleSwitch() {
 			chrome.storage.local.set({ theme: theme });
 		}
 
-		// Wende das Theme an
+		// Change to Theme
 		if (theme === "dark") {
 			body.classList.add("popup--dark");
 			toggle.classList.add("toggle--active");
@@ -38,7 +38,7 @@ export function setupToggleSwitch() {
 		}
 	});
 
-	// Event-Listener für den Toggle-Switch
+	// Event-Listener for Toggle-Switch
 	toggle.addEventListener("click", () => {
 		toggle.classList.toggle("toggle--active");
 		knob.classList.toggle("knob--active");

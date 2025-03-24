@@ -2,7 +2,7 @@ export function loadSessions() {
 	const sessionsList = document.getElementById("sessionsList");
 
 	if (!sessionsList) {
-		console.error("Fehler: sessionsList nicht gefunden.");
+		console.error("Error: sessionList not found.");
 		return;
 	}
 

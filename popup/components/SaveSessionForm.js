@@ -6,7 +6,7 @@ export function setupSaveSessionForm() {
 	const feedback = document.getElementById("feedback");
 
 	if (!saveSessionButton || !sessionNameInput || !feedback) {
-		console.error("Fehler: DOM-Elemente nicht gefunden.");
+		console.error("Error: DOM elements not found.");
 		return;
 	}
 
@@ -33,7 +33,7 @@ export function setupSaveSessionForm() {
 		chrome.tabs.query({ currentWindow: true }, function (tabs) {
 			if (chrome.runtime.lastError) {
 				console.error(
-					"Fehler beim Abrufen der Tabs:",
+					"Error while fetching tabs",
 					chrome.runtime.lastError
 				);
 				return;
