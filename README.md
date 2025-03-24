@@ -39,7 +39,7 @@ sessions by saving and restoring groups of tabs with custom names.
 
 ## 🛠 Development
 
-Want to contribute or customize? See our [development guide](DEVELOPMENT.md) for:
+Want to contribute or customize? See [development guide](DEVELOPMENT.md) for:
 - SASS compilation
 - Live reload setup
 - Project structure
@@ -47,7 +47,7 @@ Want to contribute or customize? See our [development guide](DEVELOPMENT.md) for
 
 ## 🤝 Contributing
 
-We welcome contributions! Please:
+Contributions welcome! Please:
 1. Open an issue to discuss your changes
 2. Fork the repository
 3. Submit a pull request
