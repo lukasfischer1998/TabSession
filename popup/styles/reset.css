@@ -1,0 +1,10 @@
+input:focus-visible {
+    outline: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

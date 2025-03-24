@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Tab Session Manager</title>
+		<link rel="stylesheet" href="styles/popup.css">
+		<link rel="stylesheet" href="styles/reset.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	</head>
+	<body>
+		<div class="popup">
+
+			<div class="popup__topwrapper">
+				<div class="popup__topwrapper-first">
+					<div class="popup__headline"><img class="popup__headline-img" src="../icons/headlineLogo.png" alt="headlineLogo"></div>
+					<div class="toggle-container">
+						<div class="toggle">
+							<div class="knob">
+								<i class="icon fa fa-sun"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="popup__topwrapper-second">
+					<input class="popup__input" type="text" id="sessionName" placeholder="Session Name">
+					<button class="popup__button popup__button--save" id="saveSession">
+						<img src="../icons/saveIcon.svg" alt="Save">
+					</button>
+				</div>
+			</div>
+
+			<div id="feedback" class="popup__feedback">
+				Pleace name youre session.
+			</div>
+
+			<div class="popup__seperator"></div>
+
+
+			<div class="popup__botwrapper">
+				<div class="popup__headline">Session saved</div>
+				<div class="popup__savedsession">
+					<ul id="sessionsList" class="popup__sessions-list"></ul>
+				</div>
+			</div>
+
+			<div id="feedback_rename" class="popup__feedback">
+				Name of session cant be empty.
+			</div>
+		</div>
+
+		 <script type="module" src="popup.js"></script>
+	</body>
+</html>

@@ -1,0 +1,203 @@
+body {
+  width: fit-content;
+  margin: 0;
+}
+
+.popup {
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.popup--dark {
+  background-color: #1e1e2e;
+  color: #ffffff;
+}
+.popup__seperator {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(151, 151, 56);
+}
+.popup__topwrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.popup__topwrapper-first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.popup__topwrapper-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.popup__headline {
+  font-size: 16px;
+  font-weight: 400;
+  background-image: linear-gradient(to left, #9e8ec9, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.popup__headline-img {
+  height: auto;
+  width: 155px;
+}
+.popup__input {
+  width: min-content;
+  border-radius: 8px 0 0 8px;
+  height: 16px;
+  padding: 8px;
+  border: none;
+  background: #f1f1f1;
+}
+.popup__botwrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.popup__session-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.popup__session-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.popup__session-info-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.popup__session-name {
+  cursor: text;
+  outline: none;
+}
+.popup__session-name:focus {
+  background-color: rgba(242, 245, 64, 0.75);
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+.popup__session-tabs {
+  color: #888;
+  margin-left: 4px;
+  cursor: default;
+}
+.popup__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+.popup__button-container {
+  display: flex;
+  flex-direction: row;
+}
+.popup__button img {
+  width: 16px;
+  height: 16px;
+}
+.popup__button--save {
+  background-color: #5aed32;
+  border-radius: 0 8px 8px 0;
+}
+.popup__button--save:hover {
+  opacity: 0.6;
+}
+.popup__button--delete {
+  border-radius: 0 4px 4px 0;
+  background-color: #c4233b;
+}
+.popup__button--delete:hover {
+  opacity: 0.6;
+}
+.popup__button--rename {
+  border-radius: 0;
+  background-color: #eb21c2;
+}
+.popup__button--rename:hover {
+  opacity: 0.6;
+}
+.popup__button--open {
+  border-radius: 4px 0 0 4px;
+  background-color: #533ce8;
+}
+.popup__button--open:hover {
+  opacity: 0.6;
+}
+.popup__feedback {
+  display: none;
+  color: #ff4d4d;
+  font-size: 10px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(255, 77, 77, 0.1);
+  border-radius: 4px;
+  margin-top: 5px;
+}
+.popup__feedback--visible {
+  display: block;
+}
+
+.toggle-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.toggle {
+  width: 40px;
+  height: 20px;
+  background: linear-gradient(145deg, #d5d5e2, #3a3b5e);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.toggle--active {
+  background: linear-gradient(145deg, #b4bbd4, #5c96d8);
+}
+
+.knob {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(145deg, #86a8e7, #91eae4);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+.knob--active {
+  transform: translateX(20px);
+  background: linear-gradient(145deg, #91eae4, #86a8e7);
+}
+
+.icon {
+  font-size: 10px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+/*# sourceMappingURL=popup.css.map */

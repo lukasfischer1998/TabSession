@@ -1,0 +1,38 @@
+// Farben
+$background-light: #ffffff;
+$background-dark: #1e1e2e;
+$text-light: #000000;
+$text-dark: #ffffff;
+$gradient-primary: linear-gradient(to left, #9e8ec9, #b393d3);
+$gradient-toggle: linear-gradient(145deg, #d5d5e2, #3a3b5e);
+$gradient-toggle-active: linear-gradient(145deg, #b4bbd4, #5c96d8);
+$gradient-knob: linear-gradient(145deg, #86a8e7, #91eae4);
+$gradient-knob-active: linear-gradient(145deg, #91eae4, #86a8e7);
+$color-separator: rgb(151, 151, 56);
+$color-input-bg: #f1f1f1;
+$color-button-save: #5aed32;
+$color-button-delete: #c4233b;
+$color-button-open: #533ce8;
+$color-button-rename: #eb21c2;
+
+// Abstände
+$spacing-small: 5px;
+$spacing-medium: 8px;
+$spacing-large: 10px;
+
+// Schriftarten
+$font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+$font-size-base: 16px;
+$font-size-small: 10px;
+
+// Übergänge
+$transition-duration: 0.3s;
+$transition-ease: ease;
+
+// Border-Sizes
+$border-size-none: 0;
+$border-size-thin: 1px;
+$border-size-medium: 2px;
+$border-size-thick: 4px;
+$border-size-extra-thick: 8px;
+$border-size-biggest: 20px;
