@@ -13,17 +13,17 @@ sessions by saving and restoring groups of tabs with custom names.
 - View all saved sessions at a glance
 - Dark/Light mode support
 - Simple and intuitive interface
--
+
 ## 🚀 Installation
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/yourusername/tab-session-manager.git
    ```
-2. **Navigate to ```chrome://extensions/```**
-3. **Enable "Developer mode" (toggle in top-right)**
-4. **Click "Load unpacked"**
-5. **Select the cloned repository folder**
+2. Navigate to ```chrome://extensions/```
+3. Enable "Developer mode" (toggle in top-right)
+4. Click "Load unpacked"
+5. Select the cloned repository folder
 
 ## 🖥️ Usage
 
