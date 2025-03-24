@@ -1,23 +1,57 @@
-# Tab Session Manager
+# 🔖 Tab Session Manager
+![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-yellowgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-A simple Chrome extension that allows users to save and restore tabs as named sessions.
+A lightweight Chrome extension that helps you organize your browsing
+sessions by saving and restoring groups of tabs with custom names.
 
-## Installation
+-----
+## ✨ Features
 
-1. Download the source code.
+- Save all open tabs as a named session
+- One-click restore of saved sessions
+- View all saved sessions at a glance
+- Dark/Light mode support
+- Simple and intuitive interface
+-
+## 🚀 Installation
 
-2. Open Chrome and navigate to chrome://extensions/.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/tab-session-manager.git
+   ```
+2. **Navigate to ```chrome://extensions/```**
+3. **Enable "Developer mode" (toggle in top-right)**
+4. **Click "Load unpacked"**
+5. **Select the cloned repository folder**
 
-3. Enable Developer mode.
+## 🖥️ Usage
 
-4. Click "Load unpacked" and select the tab-session-manager folder.
+1. Click the extension icon in your Chrome toolbar
 
-## Verwendung
+2. **To save your current tabs**:
+   - Enter a session name
+   - Click "Save Current Tabs"
 
-- Click the extension icon in the Chrome toolbar.
-- Enter a name for your current session and click "Save Current Tabs".
-- To restore a saved session, click its name in the list.
+3. **To restore a session**:
+   - Click the session restore Icon
+   - All tabs will open in a new window
 
-## Lizenz
+## 🛠 Development
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Want to contribute or customize? See our [development guide](DEVELOPMENT.md) for:
+- SASS compilation
+- Live reload setup
+- Project structure
+
+
+## 🤝 Contributing
+
+We welcome contributions! Please:
+1. Open an issue to discuss your changes
+2. Fork the repository
+3. Submit a pull request
+
+## 📜 License
+
+MIT License - see [LICENSE](LICENSE) file for details.
