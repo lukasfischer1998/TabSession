@@ -1,20 +1,23 @@
 # Tab Session Manager
 
-Ein einfaches Chrome-Plugin, das es Benutzern ermöglicht, Tabs in benannten Sessions zu speichern und wiederherzustellen.
+A simple Chrome extension that allows users to save and restore tabs as named sessions.
 
 ## Installation
 
-1. Lade den Quellcode herunter.
-2. Öffne Chrome und gehe zu `chrome://extensions/`.
-3. Aktiviere den Entwicklermodus.
-4. Klicke auf "Entpackte Erweiterung laden" und wähle den Ordner `tab-session-manager` aus.
+1. Download the source code.
+
+2. Open Chrome and navigate to chrome://extensions/.
+
+3. Enable Developer mode.
+
+4. Click "Load unpacked" and select the tab-session-manager folder.
 
 ## Verwendung
 
-- Klicke auf das Icon der Erweiterung in der Chrome-Toolbar.
-- Gib einen Namen für die aktuelle Session ein und klicke auf "Aktuelle Tabs speichern".
-- Um eine gespeicherte Session wiederherzustellen, klicke auf den Namen der Session in der Liste.
+- Click the extension icon in the Chrome toolbar.
+- Enter a name for your current session and click "Save Current Tabs".
+- To restore a saved session, click its name in the list.
 
 ## Lizenz
 
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. Weitere Informationen finden Sie in der Datei `LICENSE`.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

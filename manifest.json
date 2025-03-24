@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Tab Session Manager",
     "version": "1.0",
-    "description": "Speichere und verwalte deine Tabs in benannten Sessions.",
+    "description": "Save and restore tabs as named sessions",
     "permissions": [
         "tabs",
         "storage"
