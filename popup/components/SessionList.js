@@ -37,7 +37,7 @@ export function loadSessions() {
 			const buttonContainer = document.createElement("div");
 			buttonContainer.classList.add("popup__button-container");
 
-			// Öffnen-Button
+			// Open Button
 			const restoreButton = document.createElement("button");
 			restoreButton.classList.add("popup__button", "popup__button--open");
 			restoreButton.innerHTML = `<img src="../icons/openIcon.svg" alt="Open">`;
@@ -45,7 +45,7 @@ export function loadSessions() {
 				restoreSession(sessionData.urls)
 			);
 
-			// Umbenennen-Button
+			// Rename-Button
 			const renameButton = document.createElement("button");
 			renameButton.classList.add(
 				"popup__button",
@@ -53,10 +53,10 @@ export function loadSessions() {
 			);
 			renameButton.innerHTML = `<img src="../icons/renameIcon.svg" alt="Rename">`;
 			renameButton.addEventListener("click", () => {
-				sessionName.focus(); // Fokus auf das contenteditable-Feld setzen
+				sessionName.focus(); // set focus on contenteditable-field
 			});
 
-			// Löschen-Button
+			// Delete-Button
 			const deleteButton = document.createElement("button");
 			deleteButton.classList.add(
 				"popup__button",
@@ -73,7 +73,7 @@ export function loadSessions() {
 			li.appendChild(buttonContainer);
 			sessionsList.appendChild(li);
 
-			// Event-Listener für die Enter-Taste
+			// Event-Listener for Enter-button
 			sessionName.addEventListener("keydown", function (event) {
 				if (event.key === "Enter") {
 					event.preventDefault();

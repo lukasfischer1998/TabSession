@@ -41,8 +41,6 @@ sessions by saving and restoring groups of tabs with custom names.
 
 Want to contribute or customize? See [development guide](DEVELOPMENT.md) for:
 - SASS compilation
-- Live reload setup
-- Project structure
 
 
 ## 🤝 Contributing
