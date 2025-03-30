@@ -5,7 +5,7 @@
 A lightweight Chrome extension that helps you organize your browsing
 sessions by saving and restoring groups of tabs with custom names.
 
------
+--------------
 ## ✨ Features
 
 - Save all open tabs as a named session
