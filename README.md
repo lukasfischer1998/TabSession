@@ -1,4 +1,4 @@
-# 🔖 Tab Session Manager
+# Tab Session Manager
 ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-yellowgreen)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
@@ -6,7 +6,7 @@ A lightweight Chrome extension that helps you organize your browsing
 sessions by saving and restoring groups of tabs with custom names.
 
 --------------
-## ✨ Features
+## Features
 
 - Save all open tabs as a named session
 - One-click restore of saved sessions
@@ -14,7 +14,7 @@ sessions by saving and restoring groups of tabs with custom names.
 - Dark/Light mode support
 - Simple and intuitive interface
 
-## 🚀 Installation
+## Installation
 
 1. Clone the repository
    ```bash
@@ -25,7 +25,7 @@ sessions by saving and restoring groups of tabs with custom names.
 4. Click "Load unpacked"
 5. Select the cloned repository folder
 
-## 🖥️ Usage
+## Usage
 
 1. Click the extension icon in your Chrome toolbar
 
@@ -37,13 +37,13 @@ sessions by saving and restoring groups of tabs with custom names.
    - Click the session restore Icon
    - All tabs will open in a new window
 
-## 🛠 Development
+## Development
 
 Want to contribute or customize? See [development guide](DEVELOPMENT.md) for:
 - SASS compilation
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please:
 1. Open an issue to discuss your changes
