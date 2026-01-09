@@ -50,6 +50,6 @@ Contributions welcome! Please:
 2. Fork the repository
 3. Submit a pull request
 
-## 📜 License
+## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
